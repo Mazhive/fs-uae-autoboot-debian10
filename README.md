@@ -1,15 +1,14 @@
-
-											
- SCRIPT :	Install fs-uae to boot from linux debian directly.					
+										
+ SCRIPT and Preseed file:	Install fs-uae to boot from linux debian directly.					
 																
 		User need to make there own configuration in FS-UAE-launcher	
 			Working FS-UAE, amiga FE OS4.1 configuration are available.	
 			User is responsible for there own license of OS4.1			
 			Licenses are available at http://www.amigaos.net/			
-			The AmigaOS 4.1 Final Edition is being used	on a dedicated pc	
-			for this script											
+			The AmigaOS 4.1 Final Edition is being used on a dedicated pc	
+			for testing purposes.										
 																
- Requirements are:												
+ Requirements notes:												
 			I personally highly recommend consider buying			
 			a license to support the development of the OS.4.1		
 			it is possible to use the older amiga OS version or just		
@@ -18,8 +17,8 @@
 			!! making a working fs-uae configuration before installing the DEBIAN OS 
 			
 			to later transfer all configuration files to the "amiga" is highly recommended
-			this would speed up the setup and installation			
-																
+			this would speed up the setup after the installation.			
+ Requirements are:																
 																
 	 Obvious : !! AmigaOS 4.1 Final Edition - http://www.amigaos.net/	
 
@@ -108,7 +107,7 @@
 														
 		FS-UAE RUNS AS USER amiga  PASSWORD amiga					
 		THE "AMIGA" CAN BE ACCESSED BY FTP OVER TLS  ,				
-	   TO TRANSFER YOUR EXISTING FS-UAE FILES TO THE FS-UAE FOLDER	
+		TO TRANSFER YOUR EXISTING FS-UAE FILES TO THE FS-UAE FOLDER	
 																
 		RUNNING AS THE USER DURING USE IS HIGHLY PREFERABLE			
 		RUNNING IT IN A VM WITH A HD OF ABOUT 80GIG SHOULD BE ENOUGH
