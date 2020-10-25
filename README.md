@@ -36,7 +36,7 @@ Before we start .....
 ##				manually and renamed into the roms folder				## 
 ##					(archive name PIV_FlashImage74.zip)				##
 ##				http://www.sophisticated-development.de/software/		##
-##																##
+##################################################################################################
 ##		since the DEBIAN NETinstall is being used there is a very limited	##
 ##				package download and installation.					##
 ##				I choose a lightdm with openbox installation.			##
