@@ -57,7 +57,7 @@ sed -i '$afs-uae --fullscreen=1' /etc/xdg/openbox/autostart
 #fs-uae --fullscreen=1
 #echo "#!/bin/sh" | tee -a /etc/X11/Xsession.d/startup-local
 #echo "fs-uae --fullscreen=1" | tee -a /etc/X11/Xsession.d/startup-local
-
+ufw enable
 apt update
 apt upgrade -y
 
