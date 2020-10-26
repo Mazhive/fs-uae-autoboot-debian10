@@ -151,3 +151,8 @@ https://raw.githubusercontent.com/Mazhive/fs-uae-autoboot-debian10/master/presee
 
 I hope you have found it helpfull and please let me know in the ussual channels if it worked for you,
 Feed back would be much apreciated to make this project a pleasant user experience.
+
+https://www.youtube.com/watch?v=Ps1pdEV6gmc in a VM
+https://www.youtube.com/watch?v=MX-BxLZimZU on a standalone pc
+
+
