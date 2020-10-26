@@ -126,11 +126,12 @@
 		RUNNING AS THE USER DURING USE IS HIGHLY PREFERABLE			
 		RUNNING IT IN A VM WITH A HD OF ABOUT 80GIG SHOULD BE ENOUGH
 		YOU COULD RUN INTO A MESSAGE DURING BOOT NO HW OPENGL DRIVER LLVMPIPE etc.....
-		THIS SHOULD STILL RUN YOU AMIGA.
+		THIS SHOULD STILL RUN YOUR AMIGA.
 		A SOLUTION FOR THIS IS BEING WORKED ON.
 
 lets  start ....	
 
+take your ...
 
 debian-10.5.0-amd64-netinst.iso - a3ebc76aec372808ad80000108a2593a
 
@@ -147,6 +148,8 @@ https://bit.ly/3jnsLU0
 or original 
 
 https://raw.githubusercontent.com/Mazhive/fs-uae-autoboot-debian10/master/preseed.cfg
+
+And now take a coffee,....
 
 
 I hope you have found it helpfull and please let me know in the ussual channels if it worked for you,
