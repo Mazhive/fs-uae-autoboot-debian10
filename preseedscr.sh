@@ -60,6 +60,21 @@ sed -i '$afs-uae --fullscreen=1' /etc/xdg/openbox/autostart
 ufw enable
 apt update
 apt upgrade -y
+################
+# Plymouth amiga splash boot
+#
+#
+#
+#
+#
+#
+#
+#
+# update-initramfs -c -k all
+
+
+
+
 
 #ufw enable
 #/lib/ufw/ufw-init start
