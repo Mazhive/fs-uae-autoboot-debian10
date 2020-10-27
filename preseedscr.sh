@@ -63,15 +63,16 @@ apt upgrade -y
 ################
 # Plymouth amiga splash boot
 #
+ wget https://github.com/Mazhive/fs-uae-autoboot-debian10/raw/master/amigaplymouth.tar.gz
+ tar -xzvf amigaplymouth.tar.gz -C /
+ rm amigaplymouth.tar.gz
 #
 #
 #
 #
 #
-#
-#
-# update-initramfs -c -k all
-
+ update-initramfs -c -k all
+################################
 
 
 
