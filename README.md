@@ -114,7 +114,8 @@
 																
  todo :	blind all linux command lines to make it seem a real amiga		
 			Optimize startup to boot it up even faster.					
-			Some help in this matter is much appreciated				
+			Some help in this matter is much appreciated.
+			New ideas are involving Raspberry pi's :)				
 																
 			please consider donating, it toke me a lot of coffee and effort	
 			So IF..... you want to buy me a coffee .....					
