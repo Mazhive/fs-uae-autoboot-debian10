@@ -46,8 +46,7 @@ update-grub
 #  enable ufw on boot and set variables
 
 #systemctl enable ufw
-ln -s /lib/systemd/system/ufw.service /etc/systemd/system/multi-user.target.wants/ufw.service
-/lib/systemd//systemd-sysv-install enable ufw
+ln -s /lib/systemd/system/ufw.service /etc/systemd/system/multi-user.target.wants/ufw.service /lib/systemd/systemd-sysv-install enable ufw
 
 # autostart fs-uae openbox
 sed -i '$afs-uae --fullscreen=1' /etc/xdg/openbox/autostart

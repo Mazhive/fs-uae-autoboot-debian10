@@ -1,4 +1,4 @@
-#!/bin.sh
+#!/bin/bash
 # Complementary script specific pi.
 
 echo this Script needs sudo right please enter your sudo password.
@@ -8,7 +8,7 @@ su -
  echo "script is opgestart $(date +%x_%X)" > /home/amiga/done
  echo "deb [trusted=yes] https://download.opensuse.org/repositories/home:/FrodeSolheim:/stable/Debian_10/ /" > /etc/apt/sources.list.d/FrodeSolheim-stable.list
 
- set maximum performance
+# set maximum performance
  sed -i 's/^GOVERNOR=.*/GOVERNOR="performance"/' /etc/init.d/cpufrequtils
 
 mkdir /home/amiga/ftp
