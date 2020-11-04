@@ -1,4 +1,4 @@
-#!/bin.sh
+#!/bin/sh
 # Complementary script
 
 echo "script is opgestart $(date +%x_%X)" > /home/amiga/done

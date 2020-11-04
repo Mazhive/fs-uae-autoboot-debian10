@@ -1,7 +1,7 @@
 ##############################################################################################
 ## I / we are by no means affiliated by commodore / amiga  hyperion /boingball and are soly ##
-## having the purpose to use the material as a enthousiastic for amiga. 		    ##
-## And doing this for educational purpose , This information is only provided as a 	    ##
+## having the purpose to use the material as a enthousiastic for amiga.			    ##
+## And doing this for educational purpose , This information is only provided as a	    ##
 ## convenience to the users and have a smoother overall experience.			    ##
 ##                                                                                          ##
 ##############################################################################################
