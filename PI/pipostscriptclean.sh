@@ -47,7 +47,9 @@ sed -i '/#autologin-user-timeout=0/c\autologin-user-timeout=0' /etc/lightdm/ligh
 
 #systemctl enable ufw
 
-ln -s /lib/systemd/system/ufw.service /etc/systemd/system/multi-user.target.wants/ufw.service /lib/systemd/systemd-sysv-install enable ufw
+ln -s /lib/systemd/system/ufw.service /etc/systemd/system/multi-user.target.wants/ufw.service 
+
+/lib/systemd/systemd-sysv-install enable ufw
 
 # autostart fs-uae openbox
 
