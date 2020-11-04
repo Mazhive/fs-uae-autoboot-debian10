@@ -79,7 +79,7 @@ apt upgrade -y
 # boot Clean up 
 
 sed -i '/message_sprite = Sprite();/c\#message_sprite = Sprite();' /usr/share/plymouth/themes/pix/pix.script
-sed -i '/message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);/c\#message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);' /usr/share/plymouth/$
+sed -i '/message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);/c\#message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);' /usr/share/plymouth/themes/pix/pix.script
 sed -i '/my_image = Image.Text(text, 1, 1, 1);/c\#my_image = Image.Text(text, 1, 1, 1);' /usr/share/plymouth/themes/pix/pix.script
 sed -i '/message_sprite.SetImage(my_image);/c\#message_sprite.SetImage(my_image);' /usr/share/plymouth/themes/pix/pix.script
 
