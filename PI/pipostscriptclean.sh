@@ -21,6 +21,8 @@ mkdir /home/amiga/ftp
 chown nobody:nogroup /home/amiga/ftp
 chmod a-w /home/amiga/ftp
 mkdir /home/amiga/ftp/files
+mkdir /home/amiga/.config/openbox/
+chown amiga:amiga /home/amiga/.config/openbox
 chown amiga:amiga /home/amiga/ftp/files
 echo "vsftpd test file" | tee /home/amiga/ftp/files/test.txt
 
@@ -54,7 +56,12 @@ ln -s /lib/systemd/system/ufw.service /etc/systemd/system/multi-user.target.want
 
 # autostart fs-uae openbox
 
-sed -i '$afs-uae --fullscreen=1' /etc/xdg/openbox/autostart
+sed -i '/@lxpanel --profile LXDE-pi/c\#@lxpanel --profile LXDE-pi'/etc/xdg/lxsession/LXDE-pi/autostart 
+sed -i '/@pcmanfm --desktop --profile LXDE-pi/c\#@pcmanfm --desktop --profile LXDE-pi'/etc/xdg/lxsession/LXDE-pi/autostart
+sed -i '/@#@xscreensaver -no-splash/c\#@xscreensaver -no-splash'/etc/xdg/lxsession/LXDE-pi/autostart
+
+sed -i '$afs-uae --fullscreen=1' /etc/xdg/lxsession/LXDE-pi/autostart
+
 sed -i '/. /etc/X11/Xsession/c\#. /etc/X11/Xsession' /etc/X11/xinit/xinitrc
 sed -i '$exec openbox-session'
 
@@ -67,14 +74,15 @@ apt upgrade -y
 ################
 # Plymouth amiga splash boot
 #
- wget https://github.com/Mazhive/fs-uae-autoboot-debian10/raw/master/amigaplymouth.tar.gz
- tar -xzvf amigaplymouth.tar.gz -C /
- rm amigaplymouth.tar.gz
+
+wget https://github.com/Mazhive/fs-uae-autoboot-debian10/raw/master/amigaplymouth.tar.gz
+tar -xzvf amigaplymouth.tar.gz -C /
+cp /usr/share/plymouth/themes/futureprototype/plymouth_background_future.png /usr/share/plymouth/themes/pix/splash.png
+rm amigaplymouth.tar.gz
+
 #
 #
-#
-#
-#
+#####
 
 ################
 # boot Clean up 
