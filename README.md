@@ -77,7 +77,7 @@
 																
 		The easiest way, since you allready need a second "computer"		
 		to copy your files /configs/plugins/cdees/images etc.(not included)	
-		is using a ftp connection. The ftp server is allready installed and can be easily
+		is using a sftp connection. The sftp server is allready installed and can be easily
 		reached with Filezilla (using the same username and password)									
 																
 			SSH-server should be ( and is...) installed in this preconfigured	
