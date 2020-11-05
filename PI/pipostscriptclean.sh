@@ -44,6 +44,7 @@ echo "amiga" | tee -a /etc/vsftpd.userlist
 
 sed -i '/#autologin-user=/c\autologin-user=amiga' /etc/lightdm/lightdm.conf
 sed -i '/#autologin-user-timeout=0/c\autologin-user-timeout=0' /etc/lightdm/lightdm.conf
+sed -i '/autologin-user=pi/c\autologin-user=amiga'
 
 #systemctl enable ufw
 
@@ -54,12 +55,12 @@ ln -s /lib/systemd/system/ufw.service /etc/systemd/system/multi-user.target.want
 # autostart fs-uae openbox
 
 sed -i '$afs-uae --fullscreen=1' /etc/xdg/openbox/autostart
-# start up with xsession
-#
-# fs-uae --fullscreen=1
-# echo "#!/bin/sh" | tee -a /etc/X11/Xsession.d/startup-local
-# echo "fs-uae --fullscreen=1" | tee -a /etc/X11/Xsession.d/startup-local
-ufw enable
+sed -i '/. /etc/X11/Xsession/c\#. /etc/X11/Xsession' /etc/X11/xinit/xinitrc
+sed -i '$exec openbox-session'
+
+
+systemctl enable ufw
+
 apt update
 apt upgrade -y
 
@@ -84,3 +85,8 @@ sed -i '/my_image = Image.Text(text, 1, 1, 1);/c\#my_image = Image.Text(text, 1,
 sed -i '/message_sprite.SetImage(my_image);/c\#message_sprite.SetImage(my_image);' /usr/share/plymouth/themes/pix/pix.script
 
 sed -i 's/-consoles *$/-consoles logo.nologo vt.global_cursor_default=0/g' /boot/cmdline.txt
+###
+
+ufw allow 21
+ufw allow 22
+
