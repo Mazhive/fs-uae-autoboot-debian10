@@ -112,10 +112,11 @@
 		
 																
 																
- todo :	blind all linux command lines to make it seem a real amiga		
+ todo :	b̶l̶i̶n̶d̶ ̶a̶l̶l̶ ̶l̶i̶n̶u̶x̶ ̶c̶o̶m̶m̶a̶n̶d̶ ̶l̶i̶n̶e̶s̶ ̶t̶o̶ ̶m̶a̶k̶e̶ ̶i̶t̶ ̶s̶e̶e̶m̶ ̶a̶ ̶r̶e̶a̶l̶ ̶a̶m̶i̶g̶a̶		
 			Optimize startup to boot it up even faster.					
 			Some help in this matter is much appreciated.
-			New ideas are involving Raspberry pi's :)				
+			New ideas are involving Raspberry pi's :)
+			Working on a pi script..			
 																
 			please consider donating, it toke me a lot of coffee and effort	
 			So IF..... you want to buy me a coffee .....					
