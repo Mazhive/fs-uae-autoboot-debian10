@@ -76,9 +76,16 @@
 				You need to update  this version to the latest version.		
 																
 		The easiest way, since you allready need a second "computer"		
-		to copy your files /configs/plugins/cdees/images etc.(not included)	
+		to copy your files /configs/cdees/images/harddisks etc.(not included,obviously)	
 		is using a sftp connection. The sftp server is allready installed and can be easily
-		reached with Filezilla (using the same username and password)									
+		reached with Filezilla (using the same username and password)
+		
+		##Sat:nov.7.2020
+
+		The FS-UAE-Plugins_2019-05-29.zip plugins from 
+		https://fs-uae.net/files/plugins/FS-UAE-Plugins_2019-05-29.zip
+		Is now include in the install
+									
 																
 			SSH-server should be ( and is...) installed in this preconfigured	
 			install.												

@@ -72,9 +72,11 @@ apt upgrade -y
 #
  update-initramfs -c -k all
 ################################
+# Pugins fs-uae
 wget https://fs-uae.net/files/plugins/FS-UAE-Plugins_2019-05-29.zip
-unzip FS-UAE-Plugins_2019-05-29.zip /home/amiga/Documents/FS-UAE/Plugins
+unzip FS-UAE-Plugins_2019-05-29.zip /home/amiga/Documents/FS-UAE/Plugins/
 rm FS-UAE-Plugins_2019-05-29.zip
+
 
 #ufw enable
 #/lib/ufw/ufw-init start
