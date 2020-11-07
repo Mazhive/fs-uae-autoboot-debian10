@@ -18,6 +18,7 @@
 			for testing purposes.										
 																
  Requirements notes:												
+			
 			I personally highly recommend consider buying			
 			a license to support the development of the OS.4.1		
 			it is possible to use the older amiga OS version or just		
@@ -71,7 +72,9 @@
 				Time is based on a dell optiplex 780					
 
 
-	Be aware :	If you are getting the following message while running	 
+Be aware :
+				
+				if you are getting the following message while running	 
 				"expected fs-uae version x.x.x got  x.x.x "				
 				You need to update  this version to the latest version.		
 																
@@ -103,7 +106,7 @@
 			boot from, so by editing the /etc/xdg/openbox/autostart with root and set	
 			it to your own configuration file using your preferred editor.	
 
-			if the boot screen apperead press f12 and use the cursor keys to go to the
+			if the boot screen appeared press f12 and use the cursor keys to go to the
 			top right and exit fs-uae, click your right mouse button and select the option
 			terminal emulator. type in su - it is going to ask for your root password which
 			you had to type in during the installation.
