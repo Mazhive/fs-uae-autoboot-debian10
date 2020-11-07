@@ -47,25 +47,25 @@
 					(archive name PIV_FlashImage74.zip)				
 				http://www.sophisticated-development.de/software/		
 																
-		since the DEBIAN NETinstall is being used there is a very limited	
+		since the DEBIAN NETinstall is being used,  there is a very limited	
 				package download and installation.					
 				I choose a lightdm with openbox installation.			
 				The total amount approximately used space is 1.6 gig		
 				Using it in a vm ,installation takes around 30 minutes.		
 				It will only asks to enter your preferred root password in	
 				the first 2 minutes.									
-				After this user interaction,  it will install the os ,			
+				After this user interaction,  it will install the Debian os ,			
 				configure the necessary settings and should boot in		
 				the Aros boot up screen asking for a boot medium		
 				From here on you should copy your prepared fs-uae files	
-				from your ftp client to the "amiga"						
+				from your sftp client to the "amiga"						
 		Prep: fs-uae.cfg files.								
 				Make sure all links to paths are deleted you can import	
 				the paths on your "amiga" using the fs-uae-launcher	
 																
 Running or booting up the system:									
 																
-				Running it in a vm it will fire through the boot and login	
+				Running it in a vm it will run through the boot and login	
 				you never notice it and its bootup time is in a few seconds	
 				Running it on a dedicated pc it will boot up in around		
 				1 and a half minute. (depending on the system)			
@@ -76,7 +76,8 @@ Be aware :
 				
 				if you are getting the following message while running	 
 				"expected fs-uae version x.x.x got  x.x.x "				
-				You need to update  this version to the latest version.		
+				You need to have both fs-uae and fs-uae-launcher of the same version.
+				which actually should not happen since its installing both the latests version.		
 																
 		The easiest way, since you allready need a second "computer"		
 		to copy your files /configs/cdees/images/harddisks etc.(not included,obviously)	
@@ -95,10 +96,10 @@ Sat:nov.7.2020
 			install.												
 												
 			For ppc simulation (amigaos4.1) you NEED the ppc plugin.
-		
-			These are available at https://fs-uae.net/download#plugins		
+			It should be allready installed. But can be found at
+			https://fs-uae.net/download#plugins		
 			This preconfigured install has a vsftp-server  installed and		
-			you can easily copy them in the right folder with	filezilla		
+			you can easily copy them (if needed) in the right folder with filezilla		
 			Available at https://filezilla-project.org/						
 												
 			(ssh connection needed not necessary otherwise by terminal)	
