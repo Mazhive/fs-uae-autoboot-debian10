@@ -63,7 +63,7 @@
 				Make sure all links to paths are deleted you can import	
 				the paths on your "amiga" using the fs-uae-launcher	
 																
- Running or booting up the system:									
+Running or booting up the system:									
 																
 				Running it in a vm it will fire through the boot and login	
 				you never notice it and its bootup time is in a few seconds	
@@ -83,7 +83,8 @@ Be aware :
 		is using a sftp connection. The sftp server is allready installed and can be easily
 		reached with Filezilla (using the same username and password)
 		
-           Sat:nov.7.2020
+Sat:nov.7.2020
+
 
 		The FS-UAE-Plugins_2019-05-29.zip plugins from 
 		https://fs-uae.net/files/plugins/FS-UAE-Plugins_2019-05-29.zip
