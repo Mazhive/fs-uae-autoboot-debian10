@@ -126,7 +126,7 @@ Be aware :
 			Optimize startup to boot it up even faster.					
 			Some help in this matter is much appreciated.
 			New ideas are involving Raspberry pi's :)
-			Working on a pi script..			
+			PI,  Work in progress...			
 																
 			please consider donating, it toke me a lot of coffee and effort	
 			So IF..... you want to buy me a coffee .....					

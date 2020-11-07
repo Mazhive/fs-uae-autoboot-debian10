@@ -80,6 +80,13 @@ tar -xzvf amigaplymouth.tar.gz -C /
 cp /usr/share/plymouth/themes/futureprototype/plymouth_background_future.png /usr/share/plymouth/themes/pix/splash.png
 rm amigaplymouth.tar.gz
 
+cp /usr/share/plymouth/themes/debian-theme/plymouth_background_future.png /usr/share/rpd-wallpaper/amiga.png
+
+sed -i '/temple.jpg/c\wallpaper=/usr/share/rpd-wallpaper/amiga.png' /etc/lightdm/pi-greeter.conf
+sed -i '/crop/c\wallpaper_mode=stretch' /etc/lightdm/pi-greeter.conf
+sed -i '/raspberry-pi-logo.png/c\default-user-image=/usr/share/plymouth/themes/futureprototype/logo.png' /etc/lightdm/pi-greeter.conf
+
+
 #
 #
 #####
