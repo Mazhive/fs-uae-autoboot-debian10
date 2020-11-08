@@ -13,7 +13,7 @@ echo "deb [trusted=yes] https://download.opensuse.org/repositories/home:/FrodeSo
 
 apt install vsftpd ufw openssh-server xorg wget gnupg2 mesa-utils cpufrequtils sysfsutils plymouth plymouth-themes lightdm openbox fs-uae fs-uae-launcher fs-uae-arcade -y
 
-
+echo set performance
 # set maximum performance
 sed -i 's/^GOVERNOR=.*/GOVERNOR="performance"/' /etc/init.d/cpufrequtils
 
@@ -26,7 +26,7 @@ chown amiga:amiga /home/amiga/.config/openbox
 chown amiga:amiga /home/amiga/ftp/files
 echo "vsftpd test file" | tee /home/amiga/ftp/files/test.txt
 
-# alteration config file to work with ftp over tls
+echo alteration config file to work with ftp over tls
 
 sed -i '/#write_enable=YES/c\write_enable=YES' /etc/vsftpd.conf
 sed -i '/#chroot_local_user=YES/c\chroot_local_user=YES' /etc/vsftpd.conf
@@ -42,7 +42,7 @@ sed -i '$assl_sslv2=NO' /etc/vsftpd.conf
 sed -i '$assl_sslv3=NO' /etc/vsftpd.conf
 echo "amiga" | tee -a /etc/vsftpd.userlist
 
-#### change lightdm to autologin
+echo change lightdm to autologin
 
 sed -i '/#autologin-user=/c\autologin-user=amiga' /etc/lightdm/lightdm.conf
 sed -i '/#autologin-user-timeout=0/c\autologin-user-timeout=0' /etc/lightdm/lightdm.conf
@@ -92,7 +92,7 @@ sed -i '/raspberry-pi-logo.png/c\default-user-image=/usr/share/plymouth/themes/f
 #####
 
 ################
-# boot Clean up 
+echo  boot Clean up
 
 sed -i '/message_sprite = Sprite();/c\#message_sprite = Sprite();' /usr/share/plymouth/themes/pix/pix.script
 sed -i '/message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);/c\#message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);' /usr/share/plymouth/themes/pix/pix.script
@@ -101,6 +101,14 @@ sed -i '/message_sprite.SetImage(my_image);/c\#message_sprite.SetImage(my_image)
 
 sed -i 's/-consoles *$/-consoles logo.nologo vt.global_cursor_default=0/g' /boot/cmdline.txt
 ###
+echo installl plugins
+
+wget https://fs-uae.net/files/plugins/FS-UAE-Plugins_2019-05-29.zip
+unzip FS-UAE-Plugins_2019-05-29.zip -d /home/amiga/Documents/FS-UAE/Plugins/
+rm FS-UAE-Plugins_2019-05-29.zip
+
+
+
 
 ufw allow 21
 ufw allow 22

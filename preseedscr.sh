@@ -74,7 +74,7 @@ apt upgrade -y
 ################################
 # Pugins fs-uae
 wget https://fs-uae.net/files/plugins/FS-UAE-Plugins_2019-05-29.zip
-unzip FS-UAE-Plugins_2019-05-29.zip /home/amiga/Documents/FS-UAE/Plugins/
+unzip FS-UAE-Plugins_2019-05-29.zip -d /home/amiga/Documents/FS-UAE/Plugins/
 rm FS-UAE-Plugins_2019-05-29.zip
 
 
