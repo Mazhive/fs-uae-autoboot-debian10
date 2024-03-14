@@ -168,7 +168,7 @@ secondly use the automated installation
 
 and fill in this short url
 
-https://bit.ly/3eH7gNp
+https://bit.ly/43lRfpd
 
 or original 
 
