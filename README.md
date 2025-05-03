@@ -83,7 +83,10 @@ Be aware :
 		to copy your files /configs/cdees/images/harddisks etc.(not included,obviously)	
 		is using a sftp connection. The sftp server is allready installed and can be easily
 		reached with Filezilla (using the same username and password)
-		
+		other option use scp
+		scp -r /path/to/your/FS-UAE amiga@remote_host:/home/amiga/Documents
+		on the amiga it resides  in the home folder of the user amiga in Documents/FS-UAE
+
 Sat:nov.7.2020
 
 
