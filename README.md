@@ -171,11 +171,11 @@ secondly use the automated installation
 
 and fill in this short url
 
-https://bit.ly/43lRfpd
+https://bit.ly/4jIZoM3
 
 or original 
 
-https://raw.githubusercontent.com/Mazhivee/fs-uae-autoboot-debian10/master/preseed.cfg
+https://raw.githubusercontent.com/Mazhive/fs-uae-autoboot-debian10/master/preseed.cfg
 
 And now take a coffee,....
 
